@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/nav_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mmtitle_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@id/title_btn4"
+        style="@style/MMTitleButton"
+        android:background="@drawable/title_btn_right"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="#ffffffff" />
+
+    <LinearLayout
+        android:id="@id/title_to_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:shadowColor="#ff404040"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="1.0"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/BasicTextSize" />
+    </LinearLayout>
+
+    <Button
+        android:id="@id/title_btn1"
+        style="@style/MMTitleButton"
+        android:background="@drawable/title_btn_right"
+        android:focusable="true"
+        android:textColor="#ffffffff" />
+
+</LinearLayout>

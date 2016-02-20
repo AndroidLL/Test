@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_mimi" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/hello_world"
+        android:paddingTop="50dip"
+        android:src="@drawable/dd" />
+
+    <FrameLayout
+        android:id="@+id/username_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dip" >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dip"
+            android:layout_height="50dip"
+            android:layout_margin="5dip"
+            android:background="@drawable/login_input"
+            android:ems="10"
+            android:hint="请输入楼栋单元门牌号例0000101234"
+            android:inputType="number"
+            android:maxLength="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/dropdown_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/login_input_arrow"
+            android:contentDescription="@string/app_name" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/username_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/login_input"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:layout_alignLeft="@+id/remember"
+        android:layout_below="@+id/remember"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_selector"
+        android:gravity="center"
+        android:text="@string/title_activity_main"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="30dip"
+        android:button="@drawable/checkbox_bg1"
+        android:checked="true"
+        android:text="记住密码"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="#716b60" />
+
+</RelativeLayout>

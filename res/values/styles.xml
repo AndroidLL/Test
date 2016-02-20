@@ -1,0 +1,94 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="roomButtonStyle">
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:minWidth">80.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+        <item name="android:background">@drawable/room_btn</item>
+    </style>
+
+    <style name="itemButtonStyle">
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginRight">30.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:layout_marginLeft">30.0dip</item>
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MMTitleButton">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">75.0dip</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="tvButtonStyle">
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:minWidth">60.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/LargerTextSize</item>
+        <item name="android:textColor">@color/room_btn_text</item>
+        <item name="android:background">@drawable/room_btn</item>
+    </style>
+
+    <style name="tvUPButtonStyle">
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:minWidth">60.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/LargerTextSize</item>
+        <item name="android:textColor">@color/room_btn_text</item>
+        <item name="android:background">@drawable/room_btn</item>
+    </style>
+
+    <style name="acButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="acTextViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/LargeTextSize</item>
+        <item name="android:textColor">@color/etong_text_color</item>
+    </style>
+
+    <style name="otherButtonStyle">
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginRight">1.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:layout_marginLeft">1.0dip</item>
+        <item name="android:minWidth">80.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+        <item name="android:textColor">@color/room_btn_text</item>
+        <item name="android:background">@drawable/room_btn</item>
+    </style>
+
+</resources>

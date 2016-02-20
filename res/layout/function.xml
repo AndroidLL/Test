@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_blank"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/room_background"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@id/rooms_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+
+                <Button
+                    style="@style/roomButtonStyle"
+                    android:text="房间1" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/jiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/itemsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/lightRadioBtn"
+                style="@style/itemButtonStyle"
+                android:layout_weight="1.0"
+                android:background="@drawable/light_item_btn"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center" />
+
+            <RadioButton
+                android:id="@+id/acRadioBtn"
+                style="@style/itemButtonStyle"
+                android:layout_weight="1.0"
+                android:background="@drawable/ac_item_btn"
+                android:button="@null"
+                android:gravity="center" />
+
+            <RadioButton
+                android:id="@+id/curtainRadioBtn"
+                style="@style/itemButtonStyle"
+                android:layout_weight="1.0"
+                android:background="@drawable/curtain_item_btn"
+                android:button="@null"
+                android:gravity="center" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_shadow" >
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="0.0dip"
+        android:layout_marginLeft="0.0dip"
+        android:layout_marginRight="0.0dip"
+        android:layout_marginTop="0.0dip"
+        android:numColumns="3" >
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/grid_item_background"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/acScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <include layout="@layout/ac_layout" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

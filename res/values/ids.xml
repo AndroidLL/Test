@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="mm_root_view" type="id">false</item>
+    <item name="title_btn4" type="id">false</item>
+    <item name="title_btn1" type="id">false</item>
+    <item name="title" type="id">false</item>
+    <item name="nav_title" type="id">false</item>
+    <item name="title_to_top" type="id">false</item>
+
+    <!-- RemoteControlActivity -->
+    <item name="rooms_layout" type="id">false</item>
+
+</resources>

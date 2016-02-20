@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="temp_color">#ff43b4d9</color>
+    <color name="etong_text_color">#ff336699</color>
+    <color name="black">#ff000000</color>
+    <color name="white_mimi">#FFFFF0</color>
+
+</resources>

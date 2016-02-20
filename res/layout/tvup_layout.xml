@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="10.0dip"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingTop="10.0dip"
+    android:stretchColumns="0,1,2" >
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/tvUPPower"
+            style="@style/tvUPButtonStyle"
+            android:text="电源" />
+
+        <Button
+            android:id="@+id/tvUPMute"
+            style="@style/tvUPButtonStyle"
+            android:text="静音" />
+
+        <Button
+            android:id="@+id/tvUPpg"
+            style="@style/tvUPButtonStyle"
+            android:text="主页" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/tvUPKey1"
+            style="@style/tvUPButtonStyle"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/tvUPKey2"
+            style="@style/tvUPButtonStyle"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/tvUPKey3"
+            style="@style/tvUPButtonStyle"
+            android:text="3" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/tvUPKey4"
+            style="@style/tvUPButtonStyle"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/tvUPKey5"
+            style="@style/tvUPButtonStyle"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/tvUPKey6"
+            style="@style/tvUPButtonStyle"
+            android:text="6" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/tvUPKey7"
+            style="@style/tvUPButtonStyle"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/tvUPKey8"
+            style="@style/tvUPButtonStyle"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/tvUPKey9"
+            style="@style/tvUPButtonStyle"
+            android:text="9" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/tvUPdemand"
+            style="@style/tvUPButtonStyle"
+            android:text="查询" />
+
+        <Button
+            android:id="@+id/tvUPup"
+            style="@style/tvUPButtonStyle"
+            android:text="上" />
+
+        <Button
+            android:id="@+id/tvUPKey0"
+            style="@style/tvUPButtonStyle"
+            android:text="0" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/tvUPleft"
+            style="@style/tvUPButtonStyle"
+            android:text="左" />
+
+        <Button
+            android:id="@+id/tvUPConfirm"
+            style="@style/tvUPButtonStyle"
+            android:text="确认" />
+
+        <Button
+            android:id="@+id/tvUPright"
+            style="@style/tvUPButtonStyle"
+            android:text="右" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/tvUPinteract"
+            style="@style/tvUPButtonStyle"
+            android:text="互动" />
+
+        <Button
+            android:id="@+id/tvUPdown"
+            style="@style/tvUPButtonStyle"
+            android:text="下" />
+
+        <Button
+            android:id="@+id/tvUPRet"
+            style="@style/tvUPButtonStyle"
+            android:text="返回" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/tvUPvolInc"
+            style="@style/tvUPButtonStyle"
+            android:text="音量+" />
+
+        <Button
+            android:id="@+id/tvUPinfo"
+            style="@style/tvUPButtonStyle"
+            android:text="信息" />
+
+        <Button
+            android:id="@+id/tvUPproInc"
+            style="@style/tvUPButtonStyle"
+            android:text="频道+" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/tvUPvolDec"
+            style="@style/tvUPButtonStyle"
+            android:text="音量-" />
+
+        <Button
+            android:id="@+id/tvUPLive"
+            style="@style/tvUPButtonStyle"
+            android:text="直播" />
+
+        <Button
+            android:id="@+id/tvUPproDec"
+            style="@style/tvUPButtonStyle"
+            android:text="频道-" />
+    </TableRow>
+
+</TableLayout>

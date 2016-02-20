@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">智能终端</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">登录</string>
+    <string name="function_title">远程家电控制</string>
+    <string name="activity_title_remote_control">远程家电控制</string>
+    <string name="activity_title_show_model">情景模式选择</string>
+    <string name="app_back">返回</string>
+    <string name="title1">设备控制</string>
+    <string name="sub_title1">实时查看控制家电开关</string>
+    <string name="title2">请求服务</string>
+    <string name="sub_title2">请求获取控制权</string>
+    <string name="title3">情景模式</string>
+    <string name="sub_title3">选择对应模式</string>
+
+    <drawable name="white">#ffffff</drawable>
+
+</resources>

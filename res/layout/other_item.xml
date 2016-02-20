@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_item_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/other_grid_item_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="other"
+            android:textColor="@color/etong_text_color"
+            android:textSize="@dimen/LargeTextSize" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/otherButtonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/otherFn1Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text="" />
+
+            <Button
+                android:id="@+id/otherFn2Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text="" />
+
+            <Button
+                android:id="@+id/otherFn3Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text="" />
+
+            <Button
+                android:id="@+id/otherFn4Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text="" />
+
+            <Button
+                android:id="@+id/otherFn5Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text="" />
+
+            <Button
+                android:id="@+id/otherFn6Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/otherFn7Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn8Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn9Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn10Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn11Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn12Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/otherFn13Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn14Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn15Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn16Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn17Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/otherFn18Btn"
+                style="@style/otherButtonStyle"
+                android:minWidth="50.0dip"
+                android:text=" " />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

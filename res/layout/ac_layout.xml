@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_marginTop="30.0dip"
+    android:orientation="vertical"
+    android:paddingBottom="20.0dip"
+    android:paddingLeft="20.0dip"
+    android:paddingRight="20.0dip"
+    android:paddingTop="10.0dip" >
+
+    <TextView
+        android:id="@+id/tvPm25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PM2.5:"
+        android:textSize="@dimen/BasicTextSize" />
+
+    <LinearLayout
+        android:id="@+id/tempLayout"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/temp_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tempTv"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="top"
+            android:paddingLeft="20px"
+            android:paddingTop="30px"
+            android:text="25.0"
+            android:textColor="@color/temp_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="top"
+            android:paddingTop="20px"
+            android:text="℃"
+            android:textColor="@color/temp_color"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/destTempTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:paddingLeft="20px"
+            android:paddingTop="20px"
+            android:text="24"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="℃"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:stretchColumns="0,1,2,3" >
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/zhireBtn"
+                    style="@style/acButtonStyle"
+                    android:background="@drawable/btn_zhire" />
+
+                <TextView
+                    style="@style/acTextViewStyle"
+                    android:text="制热" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/zhilengBtn"
+                    style="@style/acButtonStyle"
+                    android:background="@drawable/btn_zhileng" />
+
+                <TextView
+                    style="@style/acTextViewStyle"
+                    android:text="制冷" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/choushiBtn"
+                    style="@style/acButtonStyle"
+                    android:background="@drawable/btn_choushi" />
+
+                <TextView
+                    style="@style/acTextViewStyle"
+                    android:text="抽湿" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/tempModeAuto"
+                    style="@style/acButtonStyle"
+                    android:background="@drawable/btn_auto" />
+
+                <TextView
+                    style="@style/acTextViewStyle"
+                    android:text="自动" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="10.0dip" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/difengBtn"
+                    style="@style/acButtonStyle"
+                    android:background="@drawable/btn_difeng" />
+
+                <TextView
+                    style="@style/acTextViewStyle"
+                    android:text="低风" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/zhongfengBtn"
+                    style="@style/acButtonStyle"
+                    android:background="@drawable/btn_zhongfeng" />
+
+                <TextView
+                    style="@style/acTextViewStyle"
+                    android:text="中风" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/gaofengBtn"
+                    style="@style/acButtonStyle"
+                    android:background="@drawable/btn_gaofeng" />
+
+                <TextView
+                    style="@style/acTextViewStyle"
+                    android:text="高风" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/windModeAuto"
+                    style="@style/acButtonStyle"
+                    android:background="@drawable/btn_auto" />
+
+                <TextView
+                    style="@style/acTextViewStyle"
+                    android:text="自动" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="10.0dip" >
+
+            <Button
+                android:id="@+id/tempDecrese"
+                android:layout_width="40.0dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/room_btn"
+                android:text="-"
+                android:textColor="@color/etong_text_color"
+                android:textSize="@dimen/LargerTextSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="温度"
+                android:textColor="@color/etong_text_color"
+                android:textSize="@dimen/LargerTextSize" />
+
+            <Button
+                android:id="@+id/tempIncrese"
+                android:layout_width="40.0dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/room_btn"
+                android:text="+"
+                android:textColor="@color/etong_text_color"
+                android:textSize="@dimen/LargerTextSize" />
+
+            <Button
+                android:id="@+id/acPower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ac_power" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

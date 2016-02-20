@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_item_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/alarm_grid_item_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/yangan" />
+
+    <TextView
+        android:id="@+id/alarm_grid_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="烟感"
+        android:textColor="@color/etong_text_color"
+        android:textSize="@dimen/LargeTextSize" />
+
+</LinearLayout>

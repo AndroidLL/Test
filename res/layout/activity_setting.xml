@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nav_page_tile"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/nodeList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#FFFFFFFF" >
+    </ListView>
+
+    <Button
+        android:id="@+id/getNodesBnt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="获取节点控制权" />
+
+    <Button
+        android:id="@+id/delNodesBnt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="取消节点控制权" />
+
+</LinearLayout>

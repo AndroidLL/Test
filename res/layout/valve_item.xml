@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_item_background"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/valve_grid_item_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yangan" />
+
+        <TextView
+            android:id="@+id/valve_grid_item_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Valve"
+            android:textColor="@color/etong_text_color"
+            android:textSize="@dimen/LargeTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/valveButtonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/valveOpenBtn"
+            style="@style/roomButtonStyle"
+            android:minWidth="50.0dip"
+            android:text="开" />
+
+        <Button
+            android:id="@+id/valveCloseBtn"
+            style="@style/roomButtonStyle"
+            android:minWidth="50.0dip"
+            android:text="关" />
+    </LinearLayout>
+
+</LinearLayout>
